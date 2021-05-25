@@ -1,0 +1,2 @@
+# rikiaji.github.io
+test
