@@ -4,8 +4,8 @@ test
  <iframe id="jrs_frame" src="https://github.com" height="200" width="300" title="Iframe Example" onload="myFunction()"></iframe> 
 <script>
 function myFunction() {
-  var iframe = document.getElementById("myFrame").cookie;
+  var iframe = document.getElementById("myFrame").contentDocument.cookie;
   alert(iframe);
 }
-alert(end);
+alert('end');
 </script>
