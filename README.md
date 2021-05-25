@@ -1,4 +1,8 @@
 # rikiaji.github.io
 test
-<iframe id=ifr src="https://github.com" width="100" height="100"></iframe>
-<script>alert(1)</script>
+<script>
+           function onMyFrameLoad() {
+               alert(window.frames[0].document.cookie);
+           };
+         </script>
+<iframe id="jrs_frame" src="https://github.com", width="1000px", height="600px" onload="onMyFrameLoad(this)"/>
